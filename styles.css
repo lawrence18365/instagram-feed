@@ -1,0 +1,26 @@
+#instagram-feed {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.instagram-post {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.instagram-post img {
+    width: 100%;
+    height: auto;
+}
+
+.instagram-post p {
+    padding: 10px;
+    margin: 0;
+    font-size: 14px;
+}
