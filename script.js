@@ -1,4 +1,4 @@
-const accessToken = process.env.INSTAGRAM_ACCESS_TOKEN;
+const accessToken = 'process.env.INSTAGRAM_ACCESS_TOKEN';
 const feedElement = document.getElementById('instagram-feed');
 
 async function fetchInstagramFeed() {
