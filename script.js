@@ -1,4 +1,4 @@
-const accessToken = 'IGQWROa29kOVBGNFdxN1VHejc5dWR1bkZArbjViWXBtdXpxU3pZAOHc2LTlGaTJZAM0pwTzV3eWxyaXpWSVRQdFJmaFhLSkhqb19vcTlwRTJSSHc5UEF5U0pacHVqWDVMbFRRdEQ2TktBUlFCNzlMQ1BtYXo2RENycFUZD';
+const accessToken = process.env.INSTAGRAM_ACCESS_TOKEN;
 const feedElement = document.getElementById('instagram-feed');
 
 async function fetchInstagramFeed() {
