@@ -1,8 +1,6 @@
-const accessToken = 'IGQWRNZAFpCdnhKa1NLUzZAzS1FGamJoNDFDMTlLNnBvcnZA3aDA1WTNWWTJBZAjNZAT0xLTC1yNUdnRlZAIbzNRcy1yQkdXR1M3aWlRZAmFJYUZA0RllTOF9sYllFelNva3FuZA1ZAoOFZAMY05fSnRaci1ZAS2ZAnaXdMQXRERm8ZD';
-
 async function fetchInstagramFeed() {
     try {
-        const response = await fetch(`https://graph.instagram.com/me/media?fields=id,caption,media_type,media_url,thumbnail_url,permalink&access_token=${accessToken}`);
+        const response = await fetch('/.netlify/functions/instagram-feed');
         
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
